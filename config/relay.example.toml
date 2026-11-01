@@ -1,0 +1,10 @@
+# Copy to relay.toml and adjust paths.
+
+listen = "127.0.0.1:8080"
+
+[[site.localhost]]
+root = "sites/demo"
+
+# Example: forward API traffic to a local Node app.
+# [[site.api]]
+# proxy = "http://127.0.0.1:3000"
